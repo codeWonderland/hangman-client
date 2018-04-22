@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit
 
 class GameActivity : AppCompatActivity() {
 
-    private val serverUrl = "ws://172.19.35.66:3000/ws"
+    private val serverUrl = "ws://10.0.1.16:3000/ws"
 
     private var webSocket: WebSocket? = null
 
